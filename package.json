@@ -1,0 +1,22 @@
+{
+  "name": "proj-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node_modules\\.bin\\mocha --reporter spec **/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chi": "^0.0.10",
+    "express": "^4.17.3",
+    "mocha": "^9.2.2"
+  },
+  "devDependencies": {
+    "sinon": "^2.4.1"
+  }
+}
